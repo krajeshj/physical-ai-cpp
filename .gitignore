@@ -1,0 +1,20 @@
+# Compiled binaries
+scripts/gpio_test
+scripts/blink_test
+scripts/*_test
+
+# Object files
+*.o
+*.obj
+
+# Generated DV-style artifacts — regenerate from source, do not commit
+*.lst
+*.map
+*.sections
+
+# Editor/IDE
+.vscode/
+*.swp
+
+# OS noise
+.DS_Store
